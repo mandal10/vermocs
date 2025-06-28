@@ -597,7 +597,7 @@
 
                     <div class="group">
                         <div
-                            class="bg-[url('../images/2img.jpg')] xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px] px-[20px] bg-center bg-no-repeat bg-cover relative">
+                            class="xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px] px-[20px] bg-center bg-no-repeat bg-cover relative" style="background-image: url('{{ asset('assets/images/2img.jpg') }}')">
                             <i
                                 class="fa-regular fa-heart text-[30px] absolute right-6 top-7 text-blacklight cursor-pointer"></i>
 
