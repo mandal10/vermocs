@@ -325,7 +325,7 @@
                 <div class="grid lg:grid-cols-4 md:grid-cols-2 xs:grid-cols-1 xl:gap-[25px] gap-[18px]">
                     <div class="group">
                         <div
-                            class="bg-[url('../images/1.jpg')] xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px]  px-[20px] bg-center bg-no-repeat bg-cover relative ">
+                            class=" xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px]  px-[20px] bg-center bg-no-repeat bg-cover relative " style="background-image: url('{{ asset('assets/images/1.jpg') }}')">
                             <i
                                 class="fa-regular fa-heart text-[30px] absolute right-6 top-7 text-blacklight cursor-pointer">
                             </i>
@@ -368,7 +368,7 @@
 
                     <div class="group">
                         <div
-                            class="bg-[url('../images/2.jpg')] xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px] px-[20px] bg-center bg-no-repeat bg-cover relative">
+                            class=" xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px] px-[20px] bg-center bg-no-repeat bg-cover relative" style="background-image: url('{{ asset('assets/images/2img.jpg') }}')">
                             <i
                                 class="fa-regular fa-heart text-[30px] absolute right-6 top-7 text-blacklight cursor-pointer "></i>
 
@@ -409,7 +409,7 @@
                     </div>
                     <div class="group">
                         <div
-                            class="bg-[url('../images/3.jpg')] xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px] px-[20px] bg-center bg-no-repeat bg-cover relative">
+                            class=" xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px] px-[20px] bg-center bg-no-repeat bg-cover relative" style="background-image: url('{{ asset('assets/images/3img.jpg') }}')">
                             <i
                                 class="fa-regular fa-heart text-[30px] absolute right-6 top-7 text-blacklight cursor-pointer"></i>
 
@@ -451,7 +451,7 @@
 
                     <div class="group">
                         <div
-                            class="bg-[url('../images/4.jpg')]  xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px] px-[20px] bg-center bg-no-repeat bg-cover relative">
+                            class="  xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px] px-[20px] bg-center bg-no-repeat bg-cover relative" style="background-image: url('{{ asset('assets/images/4img.jpg') }}')">
                             <i
                                 class="fa-regular fa-heart text-[30px] absolute right-6 top-7 text-blacklight cursor-pointer"></i>
 
@@ -501,7 +501,7 @@
         <div class="max-w-[100%] bg-white  lg:mt-[70px] md:mt-[50px] xs:mt-[30px] ">
             <div class=" w-[78%] mx-auto  ">
                 <div
-                    class="bg-[url('../images/banner-bg.jpg')] xs:pb-[500px] md:pb-[500px] lg:pb-[450px] px-[20px] bg-center bg-no-repeat bg-cover relative">
+                    class=" xs:pb-[500px] md:pb-[500px] lg:pb-[450px] px-[20px] bg-center bg-no-repeat bg-cover relative" style="background-image: url('{{ asset('assets/images/banner-bg.jpg') }}')">
                     <div
                         class=" max-w-[550px] text-center absolute lg:top-[130px] lg:left-[80px] top-[100px] left-[60px]">
                         <p class="text-[35px] lg:text-[50px] font-headingfont font-bold text-black">Stylish casual
@@ -638,7 +638,7 @@
                     </div>
                     <div class="group">
                         <div
-                            class="bg-[url('../images/3img.jpg')] xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px] px-[20px] bg-center bg-no-repeat bg-cover relative">
+                            class=" xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px] px-[20px] bg-center bg-no-repeat bg-cover relative" style="background-image: url('{{ asset('assets/images/3img.jpg') }}')">
                             <i
                                 class="fa-regular fa-heart text-[30px] absolute right-6 top-7 text-blacklight cursor-pointer"></i>
 
@@ -680,7 +680,7 @@
 
                     <div class="group">
                         <div
-                            class="bg-[url('../images/4img.jpg')] xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px] px-[20px] bg-center bg-no-repeat bg-cover relative">
+                            class=" xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px] px-[20px] bg-center bg-no-repeat bg-cover relative" style="background-image: url('{{ asset('assets/images/4.jpg') }}')">
                             <i
                                 class="fa-regular fa-heart text-[30px] absolute right-6 top-7 text-blacklight cursor-pointer"></i>
 
@@ -722,7 +722,7 @@
                 <div class="grid lg:grid-cols-4 md:grid-cols-2 xs:grid-cols-1 xl:gap-[25px] gap-[18px] mt-[45px]">
                     <div class="group">
                         <div
-                            class="bg-[url('../images/5.jpg')] xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px] px-[20px] bg-center bg-no-repeat bg-cover relative">
+                            class=" xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px] px-[20px] bg-center bg-no-repeat bg-cover relative" style="background-image: url('{{ asset('assets/images/5.jpg') }}')">
                             <i
                                 class="fa-regular fa-heart text-[30px] absolute right-6 top-7 text-blacklight cursor-pointer "></i>
 
@@ -764,7 +764,7 @@
 
                     <div class="group">
                         <div
-                            class="bg-[url('../images/6.jpg')] xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px] px-[20px] bg-center bg-no-repeat bg-cover relative">
+                            class="xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px] px-[20px] bg-center bg-no-repeat bg-cover relative" style="background-image: url('{{ asset('assets/images/6.jpg') }}')">
                             <i
                                 class="fa-regular fa-heart text-[30px] absolute right-6 top-7 text-blacklight cursor-pointer "></i>
 
@@ -805,7 +805,7 @@
                     </div>
                     <div class="group">
                         <div
-                            class="bg-[url('../images/7.jpg')] xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px] px-[20px] bg-center bg-no-repeat bg-cover relative">
+                            class=" xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px] px-[20px] bg-center bg-no-repeat bg-cover relative" style="background-image: url('{{ asset('assets/images/7.jpg') }}')">
                             <i
                                 class="fa-regular fa-heart text-[30px] absolute right-6 top-7 text-blacklight cursor-pointer "></i>
 
@@ -847,7 +847,7 @@
 
                     <div class="group">
                         <div
-                            class="bg-[url('../images/8.jpg')] xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px] px-[20px] bg-center bg-no-repeat bg-cover relative">
+                            class=" xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px] px-[20px] bg-center bg-no-repeat bg-cover relative" style="background-image: url('{{ asset('assets/images/8.jpg') }}')">
                             <i
                                 class="fa-regular fa-heart text-[30px] absolute right-6 top-7 text-blacklight cursor-pointer"></i>
 
@@ -897,7 +897,7 @@
 
                 <div class="grid lg:grid-cols-2 xs:grid-cols-1  w-[78%] mx-auto gap-[22px]">
                     <div
-                        class="bg-[url('../images/lookbook.jpg')] xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px]  bg-top bg-cover relative">
+                        class=" xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px]  bg-top bg-cover relative" style="background-image: url('{{ asset('assets/images/lookbook.jpg') }}')">
                         <div class="absolute right-[25px] bottom-[40px] text-white text-right">
                             <h1 class=" xs:text-[25px] md:text-[35px] font-bold  mb-[5px] font-headingfont">LOOKBOOK
                                 2023</h1>
@@ -914,7 +914,7 @@
 
                     </div>
                     <div
-                        class="bg-[url('../images/winter.jpg')] xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px]  bg-top bg-cover relative">
+                        class=" xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px]  bg-top bg-cover relative" style="background-image: url('{{ asset('assets/images/winter.jpg') }}')">
                         <div class="absolute left-[25px] top-[40px]  text-white">
                             <p class="font-subheadingfont font-bold text-[20px] leading-[25px]">Winter Sale</p>
                             <h1 class="font-headingfont font-bold text-[40px] mb-[5px]  leading-[51px]">UP TO 70% OFF
@@ -944,7 +944,7 @@
                         <div class="grid lg:grid-cols-4 md:grid-cols-2 xs:grid-cols-1 xl:gap-[25px] gap-[18px]">
                             <div class="group">
                                 <div
-                                    class="bg-[url('../images/img-1.jpg')] xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px] px-[20px] bg-center bg-no-repeat bg-cover relative">
+                                    class=" xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px] px-[20px] bg-center bg-no-repeat bg-cover relative" style="background-image: url('{{ asset('assets/images/img-1.jpg') }}')">
                                     <i
                                         class="fa-regular fa-heart text-[30px] absolute right-6 top-7 text-blacklight  cursor-pointer"></i>
 
@@ -988,7 +988,7 @@
 
                             <div class="group">
                                 <div
-                                    class="bg-[url('../images/img-2.jpg')] xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px] px-[20px] bg-center bg-no-repeat bg-cover relative">
+                                    class=" xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px] px-[20px] bg-center bg-no-repeat bg-cover relative" style="background-image: url('{{ asset('assets/images/img-2.jpg') }}')">
                                     <i
                                         class="fa-regular fa-heart text-[30px] absolute right-6 top-7 text-blacklight cursor-pointer "></i>
 
@@ -1032,7 +1032,7 @@
                             </div>
                             <div class="group">
                                 <div
-                                    class="bg-[url('../images/img-3.jpg')] xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px] px-[20px] bg-center bg-no-repeat bg-cover relative">
+                                    class=" xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px] px-[20px] bg-center bg-no-repeat bg-cover relative" style="background-image: url('{{ asset('assets/images/img-3.jpg') }}')">
                                     <i
                                         class="fa-regular fa-heart text-[30px] absolute right-6 top-7 text-blacklight cursor-pointer"></i>
 
@@ -1076,7 +1076,7 @@
 
                             <div class="group">
                                 <div
-                                    class="bg-[url('../images/img-4.jpg')] xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px] px-[20px] bg-center bg-no-repeat bg-cover relative">
+                                    class=" xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px] px-[20px] bg-center bg-no-repeat bg-cover relative" style="background-image: url('{{ asset('assets/images/img-4.jpg') }}')">
                                     <i
                                         class="fa-regular fa-heart text-[30px] absolute right-6 top-7 text-blacklight cursor-pointer"></i>
 
@@ -1143,7 +1143,7 @@
                     <div class="grid lg:grid-cols-3 md:grid-cols-2 xs:grid-cols-1 xl:gap-[25px] gap-[18px]">
                         <div class="group py-[10px]">
                             <div
-                                class="bg-[url('../images/img-11.jpg')] xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px]  px-[20px] bg-center bg-no-repeat bg-cover relative">
+                                class=" xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px]  px-[20px] bg-center bg-no-repeat bg-cover relative" style="background-image: url('{{ asset('assets/images/img-11.jpg') }}')">
                                 <div class="absolute left-6 top-7">
                                     <h1
                                         class="px-[20px] py-[9px] bg-redViolet text-white text-[18px] font-subheadingfont">
@@ -1181,7 +1181,7 @@
 
                         <div class="group py-[10px]">
                             <div
-                                class="bg-[url('../images/img-12.jpg')] xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px]  px-[20px] bg-center bg-no-repeat bg-cover relative">
+                                class=" xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px]  px-[20px] bg-center bg-no-repeat bg-cover relative" style="background-image: url('{{ asset('assets/images/img-12.jpg') }}')">
                                 <div class="absolute left-6 top-7">
                                     <h1
                                         class="px-[20px] py-[9px] bg-redViolet text-white text-[18px] font-subheadingfont">
@@ -1218,7 +1218,7 @@
                         </div>
                         <div class="group py-[10px]">
                             <div
-                                class="bg-[url('../images/img-13.jpg')] xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px]  px-[20px] bg-center bg-no-repeat bg-cover relative">
+                                class=" xs:pb-[450px] sm:pb-[400px]  lg:pb-[350px]  px-[20px] bg-center bg-no-repeat bg-cover relative" style="background-image: url('{{ asset('assets/images/img-13.jpg') }}')">
                                 <div class="absolute left-6 top-7">
                                     <h1
                                         class="px-[20px] py-[9px] bg-redViolet text-white text-[18px] font-subheadingfont">
@@ -1335,7 +1335,7 @@
                         <div class="mt-[10px] lg:mt-[25px]">
                             <div class="grid grid-cols-[60px_auto] gap-[10px]">
                                 <div>
-                                    <img src="../images/img-11.jpg" alt="">
+                                    <img src="{{asset('assets/images/img-11.jpg')}}" alt="">
                                 </div>
                                 <div>
                                     <p class=" text-blacklight font-subheadingfont hover:text-redViolet cursor-pointer">
@@ -1348,7 +1348,7 @@
                             </div>
                             <div class="grid grid-cols-[60px_auto] gap-[10px] mt-[20px]">
                                 <div>
-                                    <img src="../images/img-13.jpg" alt="">
+                                    <img src="{{asset('assets/images/img-13.jpg')}}" alt="">
 
                                 </div>
                                 <div>
