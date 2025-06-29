@@ -1,0 +1,64 @@
+   /* Main menu container: allow it to scroll when content is large */
+   ul.main-menu {
+       max-height: 500px;
+       /* Set the max height for the main menu */
+       /* overflow-y: scroll; */
+       /* Enable vertical scrolling if the menu content overflows */
+       padding-right: 10px;
+       /* To prevent the scrollbar from overlapping the content */
+   }
+
+   /* Default submenu styles */
+   ul[id^="submenu-"] {
+       max-height: 0;
+       /* Hidden by default */
+       /* overflow-y: hidden; */
+       /* Disable scrolling when hidden */
+       opacity: 0;
+       transform: scaleY(0);
+       transform-origin: top;
+       transition: max-height 0.6s ease, opacity 0.4s ease, transform 0.4s ease-in-out;
+   }
+
+   /* When submenu is expanded, allow scrolling */
+   ul[id^="submenu-"].expanded {
+       max-height: 300px;
+       /* You can adjust the height based on your content */
+       /* overflow-y: auto; */
+       /* Enable scrolling within the submenu */
+       opacity: 1;
+       transform: scaleY(1);
+   }
+
+   /* Arrow rotation for submenu toggle */
+   .arrow-icon {
+       display: inline-block;
+       margin-left: 8px;
+       transition: transform 0.4s ease;
+   }
+
+   /* Rotate arrow when submenu is expanded */
+   .arrow-icon.rotate {
+       transform: rotate(90deg);
+   }
+
+   /* Prevent body scrolling when menu is open */
+   body.menu-open {
+       overflow: hidden;
+       /* Disable page scroll */
+   }
+
+
+   @keyframes rotate360 {
+       from {
+           transform: rotate(0deg);
+       }
+
+       to {
+           transform: rotate(360deg);
+       }
+   }
+
+   .animate-rotate {
+       animation: rotate360 5s linear infinite;
+   }
